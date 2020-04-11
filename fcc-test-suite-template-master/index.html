@@ -6,25 +6,43 @@
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
 
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <title></title>
-    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
-    <p id="description" class="description text-center">
-Thank you for taking the time to help us improve the platform
-</p>
-  </head>
-  <body>
-    <form id="survey-form">
-      <label id="name-label" for="name">Name</label><br>
-      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
-      <br>
-      <label id="email-label" for="email">Email</label>
-      <br>
-       <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
-      <br>
-      <label id="number-label" for="number">Age<span class="clue">(optional)</span></label><br>
-      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" required>
-      
-    </form>
-    </body>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title></title>
+  <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+  <p id="description" class="description text-center">
+    Thank you for taking the time to help us improve the platform
+  </p>
+</head>
+
+<body>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label><br>
+    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+    <br>
+    <label id="email-label" for="email">Email</label>
+    <br>
+    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+    <br>
+    <label id="number-label" for="number">Age<span class="clue">(optional)</span></label><br>
+    <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" required>
+    <br>
+    <select id="dropdown" name="role" class="form-control" required="">
+      <option disabled="" selected="" value="">Select current role</option>
+      <option value="student">Student</option>
+    </select>
+    <br>
+    <label><input value="survey-form1" type="checkbox" class="checkbox">Full-stack</label>
+    <br>
+    <label><input value="survey-form1" type="checkbox" class="checkbox">Front-end</label>
+    <br>
+    <label><input value="survey-form1" type="checkbox" class="checkbox">back-end </label>
+    <br>
+    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here"></textarea>
+    <br>
+    <button type="submit" id="submit" class="submit-button">
+      Submit
+    </button>
+  </form>
+</body>
+
 </html>
